@@ -84,6 +84,8 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
          para.setAttribute("class","pricePara")
          para.innerText=elem.para;
          
+
+
          productDiv.append(image,nameRating,hr,priceBox,para);
          document.getElementById("arrivaldata").append(productDiv)
 
@@ -142,6 +144,9 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         var para=document.createElement("p");
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
+
+    
+
         
         productDiv.append(image,nameRating,hr,priceBox,para);
         document.getElementById("window").append(productDiv)
@@ -204,6 +209,9 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         var para=document.createElement("p");
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
+         
+    
+
         
         productDiv.append(image,nameRating,hr,priceBox,para);
         document.getElementById("mobilesCart").append(productDiv)
@@ -267,6 +275,9 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         var para=document.createElement("p");
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
+         
+     
+
         
         productDiv.append(image,nameRating,hr,priceBox,para);
         document.getElementById("toyCnt").append(productDiv)
@@ -333,6 +344,9 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         var para=document.createElement("p");
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
+         
+ 
+
         
         productDiv.append(image,nameRating,hr,priceBox,para);
         document.getElementById("bottles").append(productDiv)
@@ -395,6 +409,8 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         var para=document.createElement("p");
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
+         
+
         
         productDiv.append(image,nameRating,hr,priceBox,para);
         document.getElementById("improveC").append(productDiv)
@@ -453,6 +469,9 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         var para=document.createElement("p");
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
+         
+  
+
         
         productDiv.append(image,nameRating,hr,priceBox,para);
         document.getElementById("deviceB").append(productDiv)
@@ -513,6 +532,8 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         var para=document.createElement("p");
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
+         
+
         
         productDiv.append(image,nameRating,hr,priceBox,para);
         document.getElementById("sportsBlue").append(productDiv)
@@ -575,6 +596,8 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         var para=document.createElement("p");
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
+         
+     
         
         productDiv.append(image,nameRating,hr,priceBox,para);
         document.getElementById("wirelessC").append(productDiv)
@@ -639,6 +662,8 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
         
+ 
+        
         productDiv.append(image,nameRating,hr,priceBox,para);
         document.getElementById("wirelessSpeak").append(productDiv)
 
@@ -700,6 +725,8 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         var para=document.createElement("p");
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
+        
+  
         
         productDiv.append(image,nameRating,hr,priceBox,para);
         document.getElementById("smartW").append(productDiv)
@@ -764,6 +791,9 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
         
+    
+
+        
         productDiv.append(image,nameRating,hr,priceBox,para);
         document.getElementById("mensW").append(productDiv)
 
@@ -824,6 +854,9 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
         var para=document.createElement("p");
         para.setAttribute("class","pricePara")
         para.innerText=elem.para;
+        
+      
+
         
         productDiv.append(image,nameRating,hr,priceBox,para);
  
