@@ -84,6 +84,16 @@ var sportingBluetooth=JSON.parse(localStorage.getItem("sportingBluetooth"))
          para.setAttribute("class","pricePara")
          para.innerText=elem.para;
          
+          //<--3rd Layer Section-->//
+
+
+    //     box.addEventListener("click", function(){
+    //         var displayLayer=[];
+    //         displayLayer.push(elem)
+    //         localStorage.setItem("displayLayer",JSON.stringify(displayLayer))
+
+    //     window.location.href="../../MeanBuyProject/MainProject/Display3rdLayer/display3rdLayer.html";
+    // })
 
 
          productDiv.append(image,nameRating,hr,priceBox,para);
