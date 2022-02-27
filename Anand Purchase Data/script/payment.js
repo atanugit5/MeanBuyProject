@@ -3,7 +3,7 @@ var BuyItem= JSON.parse(localStorage.getItem("BuyItem"));
 console.log(BuyItem)
 function displaydata(BuyItem){
     BuyItem.map(function(elem){
-        var productqty=document.querySelector(".qty");
+        // var productqty=document.querySelector(".qty");
         var productname=document.querySelector(".productname");
         var productprice=document.querySelector(".prodprice");
         var subtotal=document.querySelector("#subtotl");
@@ -13,7 +13,7 @@ function displaydata(BuyItem){
         
 
         productname.textContent=elem.name;
-        productqty.textContent=elem.quant;
+        // productqty.textContent= "1";
         productprice.textContent=elem.price;
         subtotal.textContent=elem.price;
         total.textContent=elem.price;
